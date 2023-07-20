@@ -8,17 +8,14 @@ const ExpenseForm = (props) => {
 
   const titleChangeHandler = (event) => {
     setEnteredTitle(event.target.value);
-    console.log('Title:', event.target.value);
   };
 
   const amountChangeHandler = (event) => {
     setEnteredAmount(event.target.value);
-    console.log('Amount:', event.target.value);
   };
 
   const dateChangeHandler = (event) => {
     setEnteredDate(event.target.value);
-    console.log('Date:', event.target.value);
   };
 
   const submitHandler = (event) => {
